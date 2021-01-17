@@ -37,5 +37,6 @@ cmake -DWITH_HWLOC=OFF -DARM_TARGET=8 ..
 make
 ```
 then you can creat a config.json file in /build dir
+
 xmrig.exe -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u hootan09@gmail.com -p x -3
 
