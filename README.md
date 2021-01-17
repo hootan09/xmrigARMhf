@@ -39,6 +39,3 @@ make
 then you can creat a config.json file in /build dir
 
 ./xmrig -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u hootan09@gmail.com -p x -3
-
-#### Note: you can use this binary file in Raspberry Pi 3 (tested) if you have enough Memory
-
