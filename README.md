@@ -28,8 +28,9 @@ apt install wget
 apt install proot
 apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
 
-git clone https://github.com/xmrig/xmrig
-cd xmrig
+### orginal Link https://github.com/xmrig/xmrig
+tar xvf v5.5.3.tar.gz
+cd xmrig-5.5.3
 mkdir build
 cd bulid
 cmake -DWITH_HWLOC=OFF -DARM_TARGET=8 ..
