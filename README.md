@@ -29,7 +29,7 @@ apt install proot
 apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
 
 ### orginal Link https://github.com/xmrig/xmrig
-tar xvf v5.5.3.tar.gz
+tar xvf xmrig-v5.5.3_source.tar.gz
 cd xmrig-5.5.3
 mkdir build
 cd bulid
