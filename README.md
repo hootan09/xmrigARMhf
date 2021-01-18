@@ -33,9 +33,11 @@ tar xvf xmrig-v5.5.3_source.tar.gz
 cd xmrig-5.5.3
 mkdir build
 cd bulid
-cmake -DWITH_HWLOC=OFF -DARM_TARGET=8 ..
+cmake -DWITH_HWLOC=OFF -DARM_TARGET=7 ..
 make
 ```
 then you can creat a config.json file in /build dir
 
 ./xmrig -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45700 -u hootan09@gmail.com -p x -3
+
+#### you can use this Binary in Raspbery Pi (if you have enough memory to run)
